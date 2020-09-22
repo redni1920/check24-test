@@ -3,10 +3,12 @@ import React from 'react';
 // Pages
 import Comparison from './pages/Comparison';
 
-const App = () => {
+const App = ({ initialState }) => {
+  const { slides } = initialState;
+
   return (
     <article className="container">
-      <Comparison />
+      <Comparison slides={slides} />
     </article>
   );
 };
