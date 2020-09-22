@@ -5,7 +5,9 @@ import Comparison from './pages/Comparison';
 
 const App = () => {
   return (
-    <Comparison />
+    <article className="container">
+      <Comparison />
+    </article>
   );
 };
 

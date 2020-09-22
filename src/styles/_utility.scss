@@ -1,0 +1,9 @@
+@import 'variables';
+
+.container {
+  box-sizing: border-box;
+  background-color: $bg-primary;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding-bottom: 30px;
+}
