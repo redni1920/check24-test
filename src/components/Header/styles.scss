@@ -2,10 +2,13 @@
 
 .header {
   display: flex;
-  position: relative;
   flex-direction: row-reverse;
   background: rgba(0, 0, 0, 0.5);
   padding: 60px 20px 20px;
+  position: absolute;
+  z-index: 1;
+  width: 1024px;
+  box-sizing: border-box;
 
   img {
     position: absolute;

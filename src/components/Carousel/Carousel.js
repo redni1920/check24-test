@@ -17,8 +17,8 @@ const Carousel = ({ slides }) => {
   return (
     <div className="carousel">
       <div className="slide">
-        <img src={slides[activeSlide]} />
-        <h2 className="legend">Lorem ipsum dolor sit amet</h2>
+        <img src={slides[activeSlide].src} />
+        <h2 className="legend">{slides[activeSlide].legend}</h2>
       </div>
       <ul className="slide-buttons">
         <li>
