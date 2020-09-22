@@ -1,0 +1,86 @@
+@import 'variables';
+
+@font-face {
+  font-family: 'Arvo-Bold';
+  src: url(/assets/fonts/Arvo-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Arvo-BoldItalic';
+  src: url(/assets/fonts/Arvo-BoldItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Arvo-Italic';
+  src: url(/assets/fonts/Arvo-Italic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Arvo-Regular';
+  src: url(/assets/fonts/Arvo-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Black';
+  src: url(/assets/fonts/SourceSansPro-Black.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-BlackItalic';
+  src: url(/assets/fonts/SourceSansPro-BlackItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Bold';
+  src: url(/assets/fonts/SourceSansPro-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-BoldItalic';
+  src: url(/assets/fonts/SourceSansPro-BoldItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-ExtraLight';
+  src: url(/assets/fonts/SourceSansPro-ExtraLight.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-ExtraLightItalic';
+  src: url(/assets/fonts/SourceSansPro-ExtraLightItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Italic';
+  src: url(/assets/fonts/SourceSansPro-Italic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Light';
+  src: url(/assets/fonts/SourceSansPro-Light.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-LightItalic';
+  src: url(/assets/fonts/SourceSansPro-LightItalic.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Regular';
+  src: url(/assets/fonts/SourceSansPro-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-Semibold';
+  src: url(/assets/fonts/SourceSansPro-Semibold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro-SemiboldItalic';
+  src: url(/assets/fonts/SourceSansPro-SemiboldItalic.ttf) format('ttf');
+}
+
+body {
+  font-family: 'Arvo-Regular', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
