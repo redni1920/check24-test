@@ -1,9 +1,14 @@
 import React from 'react';
 
+// Components
+import Header from '../components/Header';
+
 const Comparison = ({
 }) => {
   return (
-    <h1>Comparison Page</h1>
+    <>
+      <Header />
+    </>
   );
 };
 
