@@ -2,8 +2,20 @@
 
 .container {
   box-sizing: border-box;
-  background-color: $bg-primary;
+  background-color: #fff;
   margin: 0 auto;
   max-width: 1024px;
   padding-bottom: 30px;
+}
+
+a.button {
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 7px 15px 5px;
+  border: 1px solid;
+  color: #000;
+  font-family: 'Arvo-Bold';
+  background-color: rgba(255, 255, 255, 0.4);
 }

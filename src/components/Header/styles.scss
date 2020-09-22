@@ -1,5 +1,19 @@
 @import '../../styles/variables';
 
 .header {
+  display: flex;
+  position: relative;
+  flex-direction: row-reverse;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 60px 20px 20px;
 
+  img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+
+  nav a {
+    margin-left: 20px;
+  }
 }
